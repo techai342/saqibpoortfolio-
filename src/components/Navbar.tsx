@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { navLinks } from "../data/content";
+import { navLinks, person } from "../data/content";
 import { StarDoodle } from "./Doodles";
 
 export default function Navbar() {
@@ -30,7 +30,7 @@ export default function Navbar() {
       >
         <a href="#top" className="flex items-center gap-2" data-cursor="home">
           <StarDoodle className="h-5 w-5" color="#5c49d4" />
-          <span className="hand text-xl font-bold text-purple">Kashif</span>
+          <span className="hand text-xl font-bold text-purple">{person.firstName}</span>
         </a>
 
         <ul className="hidden items-center gap-4 lg:flex xl:gap-6">

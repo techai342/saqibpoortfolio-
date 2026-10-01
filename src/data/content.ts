@@ -5,85 +5,92 @@ import eventImg from "../../public/images/work-event.jpg";
 import burgerImg from "../../public/images/work-burger.jpg";
 
 export const portraitSrc =
-  "https://i.ibb.co/hFM0NCdP/file-000000009514821195406192bd77f98c.png";
+  "https://ik.imagekit.io/19imy4f1u/lite_1790824176829_lPYoHkZ8R.png";
 
 export const person = {
-  name: "Kashif Panhwar",
-  firstName: "Kashif",
-  lastName: "Panhwar",
-  role: "GRAPHIC DESIGNER",
-  shortRole: "Designer",
-  location: "Pakistan",
-  email: "kashifpanhwe@gmail.com",
-  phone: "+92 316 2563681",
-  phoneRaw: "923162563681",
-  instagram: "@kashif_panhwer05",
-  instagramUrl: "https://instagram.com/kashif_panhwer05",
-  whatsappUrl: "https://wa.me/923162563681",
+  name: "Muhammad Saqib",
+  firstName: "Saqib",
+  lastName: "Visuals",
+  brand: "Saqib Visuals",
+  role: "FULL-STACK DEVELOPER • AI ENTHUSIAST • CREATIVE VISUAL ARTIST",
+  shortRole: "Developer & Visual Artist",
+  age: "17 Years",
+  location: "Faisalabad, Pakistan",
+  email: "mrsaqib242242@gmail.com",
+  phone: "+92 347 8936242",
+  phoneRaw: "923478936242",
+  website: "https://mrsaqib242.vercel.app",
+  websiteShort: "mrsaqib242.vercel.app",
+  instagram: "@mr_saqib242",
+  instagramUrl: "https://www.instagram.com/mr_saqib242",
+  whatsappUrl: "https://wa.me/923478936242",
+  tiktokUrl: "https://www.tiktok.com/@mr_saqib_242",
+  facebookUrl: "https://web.facebook.com/muhammad.saqib.718278",
+  snapchatUrl: "https://www.snapchat.com/add/mrsaqib242",
 };
 
 export const about = {
-  heading: "About me",
-  bio: "Hey! I'm Kashif Panhwar, a graphic designer who turns ideas into visuals that connect, inspire and leave a lasting impression. I love clean design, bold typography and bringing creative concepts to life.",
-  highlight: "Design is not just what it looks like, it's how it communicates.",
+  heading: "Who I am",
+  bio: "Hi! I'm Muhammad Saqib, a passionate developer and creative professional dedicated to designing high-quality digital experiences. I specialize in building fast, modern, and user-friendly websites, web applications, AI-powered solutions, and creative visual content.",
+  highlight: "Turn ideas into professional digital products that make an impact.",
 };
 
 export const skills = [
-  { id: "ps", label: "Ps", name: "Photoshop", color: "#31A8FF" },
-  { id: "ai", label: "Ai", name: "Illustrator", color: "#FF9A00" },
-  { id: "pr", label: "Pr", name: "Premiere Pro", color: "#9999FF" },
-  { id: "fg", label: "Fg", name: "Figma", color: "#A259FF" },
-  { id: "ae", label: "Ae", name: "After Effects", color: "#9999FF" },
-  { id: "id", label: "Id", name: "InDesign", color: "#FF3366" },
+  { id: "re", label: "Re", name: "React.js", color: "#61DAFB" },
+  { id: "tw", label: "Tw", name: "Tailwind", color: "#38BDF8" },
+  { id: "js", label: "Js", name: "JavaScript", color: "#F7DF1E" },
+  { id: "ai", label: "Ai", name: "AI Solutions", color: "#A855F7" },
+  { id: "ui", label: "UI", name: "UI/UX Design", color: "#FF9A00" },
+  { id: "ve", label: "Ve", name: "Video Editing", color: "#EC4899" },
 ];
 
 export const experience = [
   {
-    years: "2019 — 2021",
-    role: "Junior Graphic Designer",
-    company: "Creative Hive Studio",
+    years: "2023 — 2024",
+    role: "Frontend Developer & Designer",
+    company: "Saqib Visuals Creative Lab",
   },
   {
-    years: "2021 — 2023",
-    role: "Graphic Designer",
-    company: "Brandix Agency",
+    years: "2024 — 2025",
+    role: "Full-Stack Developer",
+    company: "Modern Web & App Studio",
   },
   {
-    years: "2023 — Present",
-    role: "Freelance Graphic Designer",
-    company: "Independent",
+    years: "2025 — Present",
+    role: "Full-Stack & AI Solutions Specialist",
+    company: "Saqib Visuals (Independent)",
   },
 ];
 
 export const services = [
   {
-    title: "Brand Identity",
-    desc: "Logos, systems and visual languages that feel handmade and unforgettable.",
+    title: "Premium Website Development",
+    desc: "Fast, modern, high-converting websites tailored to your brand identity.",
     icon: "star",
   },
   {
-    title: "Poster Design",
-    desc: "Editorial posters with bold type, collage energy and print-ready craft.",
-    icon: "poster",
-  },
-  {
-    title: "Social Media",
-    desc: "Scroll-stopping posts and campaigns that still feel designed, not templated.",
-    icon: "spark",
-  },
-  {
-    title: "Packaging",
-    desc: "Tactile packaging concepts with color, type and a little paper magic.",
-    icon: "box",
-  },
-  {
-    title: "UI / UX Design",
-    desc: "Interfaces with personality — clean, human, and a little bit analog.",
+    title: "Responsive Web Applications",
+    desc: "Interactive web applications built with React.js, clean code and fluid UX.",
     icon: "layout",
   },
   {
-    title: "Motion Graphics",
-    desc: "Short-form motion that makes still ideas breathe and stick.",
+    title: "AI Integration & Automation",
+    desc: "Smart AI features, workflow automations, and intelligent chatbot systems.",
+    icon: "spark",
+  },
+  {
+    title: "UI / UX Design",
+    desc: "Clean, intuitive interfaces with personality, responsive grids, and design magic.",
+    icon: "box",
+  },
+  {
+    title: "Database & REST APIs",
+    desc: "Scalable backend architecture, secure endpoints, and fast data querying.",
+    icon: "poster",
+  },
+  {
+    title: "Video Editing & Visuals",
+    desc: "Scroll-stopping social media reels, graphic design, and brand visual assets.",
     icon: "play",
   },
 ];
@@ -91,38 +98,38 @@ export const services = [
 export const works = [
   {
     id: "01",
-    title: "Explore the World",
-    category: "Travel Poster",
+    title: "Full-Stack Web Platform",
+    category: "Web Development",
     image: travelImg,
-    desc: "A vintage-inspired travel poster built around warm light, grand architecture and analog grain.",
+    desc: "High-performance digital web application with modern React, responsive Tailwind styling, and smooth interactions.",
   },
   {
     id: "02",
-    title: "Strawberry Milkshake",
-    category: "Food Poster",
+    title: "AI Integration & Automation",
+    category: "AI Solutions",
     image: milkshakeImg,
-    desc: "Soft pastel food advertising with appetizing photography and playful type hierarchy.",
+    desc: "Intelligent workflow automation and smart AI integration designed to optimize digital business processes.",
   },
   {
     id: "03",
-    title: "Merry Christmas",
-    category: "Christmas Poster",
+    title: "Saqib Visuals Brand Identity",
+    category: "Graphic Design & Branding",
     image: christmasImg,
-    desc: "A festive greeting piece with hanging ornaments, holly and elegant seasonal typography.",
+    desc: "Distinctive brand identity, typography systems, and creative visual assets that leave a memorable impression.",
   },
   {
     id: "04",
-    title: "Wabi Sabi",
-    category: "Event Poster",
+    title: "Intuitive UI/UX Experience",
+    category: "UI / UX Design",
     image: eventImg,
-    desc: "Experimental collage poster mixing Japanese type, xerox texture and stamped details.",
+    desc: "Clean, user-centric interface design built for seamless navigation, accessibility, and high conversion.",
   },
   {
     id: "05",
-    title: "Burger Hours",
-    category: "Social Media Post",
+    title: "Creative Visuals & Video Edits",
+    category: "Video & Motion",
     image: burgerImg,
-    desc: "High-contrast campaign visual for a limited burger drop — loud type, juicier photography.",
+    desc: "Dynamic motion graphics, high-energy video edits, and attention-grabbing social media campaigns.",
   },
 ];
 
@@ -136,114 +143,113 @@ export const navLinks = [
 ];
 
 export const marqueeWords = [
-  "ideas",
+  "code",
   "create",
-  "inspire",
-  "typography",
-  "posters",
-  "branding",
-  "color",
-  "collage",
-  "print",
-  "motion",
+  "innovate",
+  "react",
+  "fullstack",
+  "ai",
+  "visuals",
+  "ui/ux",
+  "tailwind",
+  "speed",
   "craft",
-  "paper",
+  "saqib",
 ];
 
 export const stats = [
-  { n: "06+", l: "years making" },
-  { n: "80+", l: "visuals shipped" },
-  { n: "40+", l: "happy clients" },
-  { n: "∞", l: "coffee rings" },
+  { n: "03+", l: "years building" },
+  { n: "45+", l: "projects shipped" },
+  { n: "30+", l: "happy clients" },
+  { n: "100%", l: "clean code" },
 ];
 
 export const process = [
   {
     n: "01",
-    title: "Listen",
-    desc: "I start on paper. Brief, audience, feeling — the real brief is usually hiding between the lines.",
+    title: "Discover",
+    desc: "Understanding your vision, goals, and audience to craft a digital blueprint that drives real results.",
   },
   {
     n: "02",
-    title: "Sketch",
-    desc: "Ugly thumbnails first. Composition, type scale, the one idea that can carry a whole campaign.",
+    title: "Design",
+    desc: "Creating modern UI/UX mockups, clean typography, and visual aesthetics built for impact.",
   },
   {
     n: "03",
-    title: "Craft",
-    desc: "Then the pixels. Color, grid, photography, print marks. Designed like it could hang on a wall.",
+    title: "Develop",
+    desc: "Writing fast, maintainable React and full-stack code with AI integration and responsive layouts.",
   },
   {
     n: "04",
     title: "Deliver",
-    desc: "Files that are clean, named, and ready. Revisions that make it sharper — never noisier.",
+    desc: "Rigorous testing, SEO optimization, and delivering a production-ready, future-proof digital product.",
   },
 ];
 
 export const principles = [
-  { t: "Type is voice", d: "A headline should sound like someone. Bold, quiet, playful — never default." },
-  { t: "Space is luxury", d: "What you leave out is the design. Breathing room makes the loud bits louder." },
-  { t: "Color is emotion", d: "Purple isn’t decoration here. It’s a mood, a brand, a memory." },
-  { t: "Craft over trends", d: "Templates age overnight. Handmade decisions still look expensive in five years." },
+  { t: "Modern & Responsive", d: "Pixel-perfect on every device. Fast loading, accessible, and intuitive." },
+  { t: "Clean Code & Speed", d: "Maintainable, modern architecture engineered for scale and peak performance." },
+  { t: "AI & Innovation", d: "Leveraging cutting-edge AI and automation to deliver smart, future-proof tools." },
+  { t: "Reliable Support", d: "Clear communication, timely delivery, and dependable support at every step." },
 ];
 
 export const testimonials = [
   {
-    quote: "Kashif didn’t just design a poster. He designed the feeling of walking into the event.",
-    name: "Ayesha R.",
-    role: "Cafe owner",
+    quote: "Saqib built a modern website that exceeded all expectations. Fast, stunning, and converted visitors instantly.",
+    name: "Hamza T.",
+    role: "Agency Founder",
     rotate: -3.2,
   },
   {
-    quote: "The brand finally looks like us — messy in the right places, sharp where it counts.",
-    name: "Omar K.",
-    role: "Studio lead",
+    quote: "Working with Saqib Visuals was a breeze. Clean code, sharp aesthetic, and top-tier professionalism.",
+    name: "Zainab A.",
+    role: "E-Commerce Manager",
     rotate: 2.4,
   },
   {
-    quote: "Every social post stopped the scroll. Our sales week actually felt designed.",
-    name: "Hina M.",
-    role: "Food brand",
+    quote: "From UI design to full-stack React and AI integration, Saqib handled everything with true craft.",
+    name: "Bilal S.",
+    role: "Tech Startup Lead",
     rotate: -1.6,
   },
 ];
 
 export const journal = [
   {
-    date: "Mar 2026",
-    title: "Why posters still matter",
-    body: "A poster has one job and two seconds. That’s the most honest brief in design.",
+    date: "Sep 2026",
+    title: "Building with React & AI",
+    body: "Why integrating AI directly into user workflows is the biggest leap forward in modern web applications.",
   },
   {
-    date: "Jan 2026",
-    title: "Sketch before Figma",
-    body: "If it doesn’t work in a 3cm thumbnail, a 4k mockup won’t save it.",
+    date: "Jul 2026",
+    title: "Simplicity in Web Design",
+    body: "The best interfaces get out of the way. Clean hierarchy and lightning speed always win.",
   },
   {
-    date: "Nov 2025",
-    title: "Purple, paper, patience",
-    body: "I keep coming back to analog texture. Screens feel colder without it.",
+    date: "May 2026",
+    title: "Where Creativity Meets Code",
+    body: "When visual artistry merges with engineering, digital products come alive.",
   },
 ];
 
 export const faqs = [
   {
-    q: "Do you take freelance work?",
-    a: "Yes — branding, posters, social campaigns, and full visual identities. If it’s a fit, we’ll start with a short call.",
+    q: "What services do you offer?",
+    a: "I build modern websites, full-stack web applications, AI integrations, UI/UX designs, and creative visual content through Saqib Visuals.",
   },
   {
-    q: "How long does a project take?",
-    a: "A poster pack can be a week. A full identity is usually 3–5 weeks. Rush work exists, but craft needs a little air.",
+    q: "How can we start a project?",
+    a: "Reach out via WhatsApp or email with your requirements and timeline. We'll outline a clear plan and get building right away.",
   },
   {
-    q: "Do you work remotely?",
-    a: "Always. Based in Pakistan, working with clients over WhatsApp, Instagram and email — analog soul, digital delivery.",
+    q: "Do you handle both design and development?",
+    a: "Yes! From wireframes and UI design to full-stack code, databases, and deployment, I provide end-to-end solutions.",
   },
   {
-    q: "What’s the starting point?",
-    a: "Send a note with the vibe, deadline and budget range. I’ll reply with a simple plan, not a 40-page PDF.",
+    q: "What is your typical turnaround time?",
+    a: "Landing pages and visual projects take 3–7 days, while full web apps take 2–4 weeks depending on scope.",
   },
 ];
 
-export const brands = ["Hive", "Brandix", "Wabi", "Burger Hours", "North", "Studio 14", "Milk & Co", "Jun Ang"];
-
+export const brands = ["Saqib Visuals", "React", "Next.js", "Tailwind CSS", "Node.js", "AI Tech", "Vercel", "Figma"];

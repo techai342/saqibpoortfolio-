@@ -12,6 +12,7 @@ const tilts = [-7, 4, -3, 8, -5, 6];
 const contacts = [
   { icon: "✉", label: person.email, href: `mailto:${person.email}` },
   { icon: "✆", label: person.phone, href: person.whatsappUrl },
+  { icon: "🌐", label: person.websiteShort, href: person.website },
   { icon: "◎", label: person.instagram, href: person.instagramUrl },
   { icon: "⌖", label: person.location, href: undefined },
 ];

@@ -13,8 +13,15 @@ import Tape from "./Tape";
 const items = [
   { label: "Email", value: person.email, href: `mailto:${person.email}`, icon: "✉" },
   { label: "WhatsApp", value: person.phone, href: person.whatsappUrl, icon: "✆" },
+  { label: "Website", value: person.websiteShort, href: person.website, icon: "🌐" },
   { label: "Instagram", value: person.instagram, href: person.instagramUrl, icon: "◎" },
   { label: "Location", value: person.location, href: undefined, icon: "⌖" },
+];
+
+const socials = [
+  { label: "TikTok", href: person.tiktokUrl },
+  { label: "Facebook", href: person.facebookUrl },
+  { label: "Snapchat", href: person.snapchatUrl },
 ];
 
 export default function Contact() {
@@ -72,6 +79,23 @@ export default function Contact() {
               </li>
             ))}
           </ul>
+
+          <div className="mt-5 flex flex-wrap gap-2">
+            {socials.map((s) => (
+              <a
+                key={s.label}
+                href={s.href}
+                target="_blank"
+                rel="noreferrer"
+                className="sticker inline-flex items-center gap-1.5 rounded-lg px-3 py-1 text-xs font-semibold text-purple transition hover:scale-105"
+                data-cursor="open"
+              >
+                <span>↗</span>
+                <span>{s.label}</span>
+              </a>
+            ))}
+          </div>
+
           <div className="mt-6 flex items-center gap-3">
             <SmileDoodle className="h-9 w-9" />
             <StarDoodle className="h-6 w-6" color="#5c49d4" />

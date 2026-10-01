@@ -10,7 +10,7 @@ type Props = {
 };
 
 const STRIPS = 7;
-const NAME = "KASHIF".split("");
+const NAME = "SAQIB".split("");
 
 export default function Loader({ onReveal, onComplete }: Props) {
   const root = useRef<HTMLDivElement>(null);
@@ -156,7 +156,7 @@ export default function Loader({ onReveal, onComplete }: Props) {
           <img src={portraitSrc} alt="" className="aspect-square w-full object-cover object-top" />
         </div>
         <p className="ld-sub doodle mt-4 text-xl text-ink-soft md:text-2xl">
-          {person.name} — graphic designer
+          {person.name} — {person.shortRole.toLowerCase()}
         </p>
         <p className="ld-sub doodle mt-5 text-lg text-ink-soft">
           assembling the scrapbook — {pct}%

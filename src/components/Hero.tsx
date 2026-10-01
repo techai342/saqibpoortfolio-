@@ -120,7 +120,7 @@ export default function Hero({ play }: { play: boolean }) {
           <div className="hero-portrait cutout-wrap absolute left-1/2 top-[52%] z-20 w-[78vw] max-w-[420px] -translate-x-1/2 -translate-y-1/2 sm:w-[58vw] sm:max-w-[460px] md:w-[400px] lg:w-[480px] xl:w-[520px]">
             <img
               src={portraitSrc}
-              alt={`${person.name}, graphic designer`}
+              alt={`${person.name}, ${person.shortRole}`}
               className="h-auto w-full select-none object-contain"
               draggable={false}
               fetchPriority="high"
@@ -133,7 +133,7 @@ export default function Hero({ play }: { play: boolean }) {
         <div className="hero-role relative z-30 mt-1 flex flex-col items-center gap-3 sm:mt-2">
           <span className="brush-label text-[10px] sm:text-xs md:text-sm">{person.role}</span>
           <p className="doodle text-base text-ink-soft sm:text-lg md:text-xl">
-            {person.name} · freelance designer
+            {person.name} · {person.brand}
           </p>
         </div>
         <a
